@@ -39,7 +39,7 @@ client.on('ready', () => {
         status: "idle"
     })
     // GET GUILD ID
-    let guild = client.guilds.cache.get('955081914333663232')
+    let guild = client.guilds.cache.get('955081914333663232') // change this with your guild id
     // CHECKS IF CATEGORY AND CHANNEL EXISTS
     let check_current_players = guild.channels.cache.find(channel => channel.name.includes('current-players-') && channel.type === "GUILD_VOICE")
     let check_status = guild.channels.cache.find(channel => channel.name.includes('bapbap.gg') && channel.type === "GUILD_CATEGORY");
