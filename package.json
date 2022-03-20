@@ -1,0 +1,22 @@
+{
+  "name": "httpreq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "discordu.js",
+  "scripts": {
+    "start": "node discordu.js"
+  },
+  "keywords": [],
+  "author": "eVqya",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "events": "^3.3.0",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
